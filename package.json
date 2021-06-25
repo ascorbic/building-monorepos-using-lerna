@@ -13,5 +13,8 @@
   "devDependencies": {
     "@netlify/plugin-nextjs": "github:netlify/netlify-plugin-nextjs#monorepo-weirdness",
     "lerna": "^4.0.0"
-  }
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }
